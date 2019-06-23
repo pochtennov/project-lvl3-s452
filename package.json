@@ -1,0 +1,43 @@
+{
+  "name": "pochten-rss-reader",
+  "version": "1.0.0",
+  "description": "Rss reader, project made for studying purposes",
+  "main": "index.js",
+  "scripts": {
+    "test": "jest"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pochtennov/project-lvl3-s452.git"
+  },
+  "keywords": [
+    "rss",
+    "reader"
+  ],
+  "author": "Dmitrii Pochtennov",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/pochtennov/project-lvl3-s452/issues"
+  },
+  "homepage": "https://github.com/pochtennov/project-lvl3-s452#readme",
+  "devDependencies": {
+    "@babel/cli": "^7.2.3",
+    "@babel/core": "^7.2.2",
+    "@babel/node": "^7.2.2",
+    "@babel/preset-env": "^7.3.4",
+    "babel-eslint": "^10.0.1",
+    "babel-jest": "^24.1.0",
+    "babel-plugin-lodash": "^3.3.4",
+    "eslint": "^5.12.0",
+    "eslint-config-airbnb-base": "^13.1.0",
+    "eslint-plugin-babel": "^5.3.0",
+    "eslint-plugin-import": "^2.14.0",
+    "jest": "^24.1.0"
+  },
+  "bin": {
+    "rss-feed": "dist/bin/rss-feed.js"
+  },
+  "files": [
+    "dist"
+  ]
+}
